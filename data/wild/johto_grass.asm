@@ -1,4 +1,4 @@
-; Johto Pokémon in grass
+f; Johto Pokémon in grass
 
 JohtoGrassWildMons:
 
@@ -1281,7 +1281,7 @@ JohtoGrassWildMons:
 	IF DEF(_GOLD)
 	; morn
 	db 42, ONIX
-	db 44, URSARING
+	db 44, DONPHAN
 	db 43, GRAVELER
 	db 43, GRAVELER
 	db 45, GOLBAT
@@ -1289,7 +1289,7 @@ JohtoGrassWildMons:
 	db 15, LARVITAR
 	; day
 	db 42, ONIX
-	db 44, URSARING
+	db 44, DONPHAN
 	db 43, GRAVELER
 	db 43, GRAVELER
 	db 45, GOLBAT
@@ -1297,7 +1297,7 @@ JohtoGrassWildMons:
 	db 15, LARVITAR
 	; nite
 	db 42, ONIX
-	db 44, URSARING
+	db 44, DONPHAN
 	db 43, GRAVELER
 	db 43, GRAVELER
 	db 45, GOLBAT
@@ -1307,7 +1307,7 @@ JohtoGrassWildMons:
 	ELIF DEF(_SILVER)
 	; morn
 	db 42, ONIX
-	db 44, DONPHAN
+	db 44, URSARING
 	db 43, GRAVELER
 	db 43, GRAVELER
 	db 45, GOLBAT
@@ -1315,7 +1315,7 @@ JohtoGrassWildMons:
 	db 15, LARVITAR
 	; day
 	db 42, ONIX
-	db 44, DONPHAN
+	db 44, URSARING
 	db 43, GRAVELER
 	db 43, GRAVELER
 	db 45, GOLBAT
@@ -1323,7 +1323,7 @@ JohtoGrassWildMons:
 	db 15, LARVITAR
 	; nite
 	db 42, ONIX
-	db 44, DONPHAN
+	db 44, URSARING
 	db 43, GRAVELER
 	db 43, GRAVELER
 	db 45, GOLBAT
@@ -1338,7 +1338,7 @@ JohtoGrassWildMons:
 	; morn
 	db 45, QUAGSIRE
 	db 48, GOLDUCK
-	db 47, URSARING
+	db 47, DONPHAN
 	db 45, QUAGSIRE
 	db 48, GOLBAT
 	db 20, LARVITAR
@@ -1346,7 +1346,7 @@ JohtoGrassWildMons:
 	; day
 	db 45, QUAGSIRE
 	db 48, GOLDUCK
-	db 47, URSARING
+	db 47, DONPHAN
 	db 45, QUAGSIRE
 	db 48, GOLBAT
 	db 20, LARVITAR
@@ -1354,7 +1354,7 @@ JohtoGrassWildMons:
 	; nite
 	db 45, QUAGSIRE
 	db 48, GOLDUCK
-	db 47, URSARING
+	db 47, DONPHAN
 	db 45, MISDREAVUS
 	db 48, GOLBAT
 	db 20, LARVITAR
@@ -1364,7 +1364,7 @@ JohtoGrassWildMons:
 	; morn
 	db 45, QUAGSIRE
 	db 48, GOLDUCK
-	db 47, DONPHAN
+	db 47, URSARING
 	db 45, QUAGSIRE
 	db 48, GOLBAT
 	db 20, LARVITAR
@@ -1372,7 +1372,7 @@ JohtoGrassWildMons:
 	; day
 	db 45, QUAGSIRE
 	db 48, GOLDUCK
-	db 47, DONPHAN
+	db 47, URSARING
 	db 45, QUAGSIRE
 	db 48, GOLBAT
 	db 20, LARVITAR
@@ -1380,7 +1380,7 @@ JohtoGrassWildMons:
 	; nite
 	db 45, QUAGSIRE
 	db 48, GOLDUCK
-	db 47, DONPHAN
+	db 47, URSARING
 	db 45, MISDREAVUS
 	db 48, GOLBAT
 	db 20, LARVITAR
@@ -1395,7 +1395,7 @@ JohtoGrassWildMons:
 	db 51, GOLBAT
 	db 48, ONIX
 	db 48, GOLBAT
-	db 50, URSARING
+	db 50, DONPHAN
 	db 51, GOLDUCK
 	db 20, LARVITAR
 	db 15, LARVITAR
@@ -1403,7 +1403,7 @@ JohtoGrassWildMons:
 	db 51, GOLBAT
 	db 48, ONIX
 	db 48, GOLBAT
-	db 50, URSARING
+	db 50, DONPHAN
 	db 51, GOLDUCK
 	db 20, LARVITAR
 	db 15, LARVITAR
@@ -1411,7 +1411,7 @@ JohtoGrassWildMons:
 	db 51, GOLBAT
 	db 48, ONIX
 	db 48, GOLBAT
-	db 50, URSARING
+	db 50, DONPHAN
 	db 51, GOLDUCK
 	db 20, LARVITAR
 	db 15, LARVITAR
@@ -1421,7 +1421,7 @@ JohtoGrassWildMons:
 	db 51, GOLBAT
 	db 48, ONIX
 	db 48, GOLBAT
-	db 50, DONPHAN
+	db 50, URSARING
 	db 51, GOLDUCK
 	db 20, LARVITAR
 	db 15, LARVITAR
@@ -1429,7 +1429,7 @@ JohtoGrassWildMons:
 	db 51, GOLBAT
 	db 48, ONIX
 	db 48, GOLBAT
-	db 50, DONPHAN
+	db 50, URSARING
 	db 51, GOLDUCK
 	db 20, LARVITAR
 	db 15, LARVITAR
@@ -1437,7 +1437,7 @@ JohtoGrassWildMons:
 	db 51, GOLBAT
 	db 48, ONIX
 	db 48, GOLBAT
-	db 50, DONPHAN
+	db 50, URSARING
 	db 51, GOLDUCK
 	db 20, LARVITAR
 	db 15, LARVITAR
@@ -1450,7 +1450,7 @@ JohtoGrassWildMons:
 	; morn
 	db 45, QUAGSIRE
 	db 48, GOLDUCK
-	db 47, URSARING
+	db 47, DONPHAN
 	db 45, QUAGSIRE
 	db 48, GOLBAT
 	db 20, LARVITAR
@@ -1458,7 +1458,7 @@ JohtoGrassWildMons:
 	; day
 	db 45, QUAGSIRE
 	db 48, GOLDUCK
-	db 47, URSARING
+	db 47, DONPHAN
 	db 45, QUAGSIRE
 	db 48, GOLBAT
 	db 20, LARVITAR
@@ -1466,7 +1466,7 @@ JohtoGrassWildMons:
 	; nite
 	db 45, MISDREAVUS
 	db 48, GOLDUCK
-	db 47, URSARING
+	db 47, DONPHAN
 	db 45, QUAGSIRE
 	db 48, GOLBAT
 	db 20, LARVITAR
@@ -1476,7 +1476,7 @@ JohtoGrassWildMons:
 	; morn
 	db 45, QUAGSIRE
 	db 48, GOLDUCK
-	db 47, DONPHAN
+	db 47, URSARING
 	db 45, QUAGSIRE
 	db 48, GOLBAT
 	db 20, LARVITAR
@@ -1484,7 +1484,7 @@ JohtoGrassWildMons:
 	; day
 	db 45, QUAGSIRE
 	db 48, GOLDUCK
-	db 47, DONPHAN
+	db 47, URSARING
 	db 45, QUAGSIRE
 	db 48, GOLBAT
 	db 20, LARVITAR
@@ -1492,7 +1492,7 @@ JohtoGrassWildMons:
 	; nite
 	db 45, MISDREAVUS
 	db 48, GOLDUCK
-	db 47, DONPHAN
+	db 47, URSARING
 	db 45, QUAGSIRE
 	db 48, GOLBAT
 	db 20, LARVITAR
@@ -2229,7 +2229,7 @@ JohtoGrassWildMons:
 	db 23, GEODUDE
 	db 23, GRAVELER
 	db 24, GLIGAR
-	db 20, TEDDIURSA
+	db 20, PHANPY
 	db 25, GRAVELER
 	db 27, GRAVELER
 	db 27, GRAVELER
@@ -2237,7 +2237,7 @@ JohtoGrassWildMons:
 	db 23, GEODUDE
 	db 23, GRAVELER
 	db 24, GLIGAR
-	db 20, TEDDIURSA
+	db 20, PHANPY
 	db 25, GRAVELER
 	db 27, GRAVELER
 	db 27, GRAVELER
@@ -2245,7 +2245,7 @@ JohtoGrassWildMons:
 	db 23, GEODUDE
 	db 23, GRAVELER
 	db 24, GLIGAR
-	db 20, TEDDIURSA
+	db 20, PHANPY
 	db 25, GRAVELER
 	db 27, GRAVELER
 	db 27, GRAVELER
@@ -2255,7 +2255,7 @@ JohtoGrassWildMons:
 	db 23, GEODUDE
 	db 23, GRAVELER
 	db 24, GRAVELER
-	db 20, PHANPY
+	db 20, TEDDIURSA
 	db 25, GRAVELER
 	db 27, SKARMORY
 	db 27, SKARMORY
@@ -2263,7 +2263,7 @@ JohtoGrassWildMons:
 	db 23, GEODUDE
 	db 23, GRAVELER
 	db 24, GRAVELER
-	db 20, PHANPY
+	db 20, TEDDIURSA
 	db 25, GRAVELER
 	db 27, SKARMORY
 	db 27, SKARMORY
@@ -2271,7 +2271,7 @@ JohtoGrassWildMons:
 	db 23, GEODUDE
 	db 23, GRAVELER
 	db 24, GRAVELER
-	db 20, PHANPY
+	db 20, TEDDIURSA
 	db 25, GRAVELER
 	db 27, SKARMORY
 	db 27, SKARMORY
@@ -2311,7 +2311,7 @@ JohtoGrassWildMons:
 	; morn
 	db 41, TANGELA
 	db 42, PONYTA
-	db 42, URSARING
+	db 42, DONPHAN
 	db 44, RAPIDASH
 	db 41, DODUO
 	db 43, DODRIO
@@ -2319,7 +2319,7 @@ JohtoGrassWildMons:
 	; day
 	db 41, TANGELA
 	db 42, PONYTA
-	db 42, URSARING
+	db 42, DONPHAN
 	db 44, RAPIDASH
 	db 41, DODUO
 	db 43, DODRIO
@@ -2327,7 +2327,7 @@ JohtoGrassWildMons:
 	; nite
 	db 41, TANGELA
 	db 42, PONYTA
-	db 42, URSARING
+	db 42, DONPHAN
 	db 44, RAPIDASH
 	db 38, SNEASEL
 	db 42, SNEASEL
@@ -2337,7 +2337,7 @@ JohtoGrassWildMons:
 	; morn
 	db 41, TANGELA
 	db 42, PONYTA
-	db 42, DONPHAN
+	db 42, URSARING
 	db 44, RAPIDASH
 	db 41, DODUO
 	db 43, DODRIO
@@ -2345,7 +2345,7 @@ JohtoGrassWildMons:
 	; day
 	db 41, TANGELA
 	db 42, PONYTA
-	db 42, DONPHAN
+	db 42, URSARING
 	db 44, RAPIDASH
 	db 41, DODUO
 	db 43, DODRIO
@@ -2353,7 +2353,7 @@ JohtoGrassWildMons:
 	; nite
 	db 41, TANGELA
 	db 42, PONYTA
-	db 42, DONPHAN
+	db 42, URSARING
 	db 44, RAPIDASH
 	db 38, SNEASEL
 	db 42, SNEASEL
