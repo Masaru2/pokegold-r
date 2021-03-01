@@ -14,8 +14,11 @@ HallOfFame::
 	ld hl, wStatusFlags
 	set STATUSFLAGS_HALL_OF_FAME_F, [hl]
 
-; Bug: Gold/Silver fail to (conditionally) erase the previous save and
-; initialize the current save, if the player did not save on this playthrough.
+	ld a, [wSavedAtLeastOnce]
+	and a
+	jr nz, .saved
+	farcall ErasePreviousSave
+.saved
 
 	ld hl, wHallOfFameCount
 	ld a, [hl]

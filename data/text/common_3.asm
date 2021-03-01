@@ -333,12 +333,11 @@ Text_PlayedPokeFlute::
 
 	text_end ; unreferenced
 
-; BUG: "done" is not a valid terminator here, needs to change to "text_end"
 _CoinCaseCountText::
 	text "Coins:"
 	line "@"
 	text_decimal wCoins, 2, 4
-	done
+	text_end
 
 _RaiseThePPOfWhichMoveText::
 	text "Raise the PP of"
