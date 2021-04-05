@@ -22,8 +22,8 @@ DEBUGROOMMENU_NUM_PAGES EQU const_value
 
 _DebugRoom:
 	ldh a, [hJoyDown]
-	and SELECT | START
-	cp SELECT | START
+	and A_BUTTON
+	cp A_BUTTON
 	ret nz
 	ldh a, [hDebugRoomMenuPage]
 	push af
