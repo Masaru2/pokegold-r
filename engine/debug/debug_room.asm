@@ -89,7 +89,7 @@ _DebugRoom:
 	db "BTL REC CLR@"
 	db "#DEX CLR@"
 	db "HALT CHK CLR@"
-	db "COLOR MENU@"
+	db "#MON MENU@"
 	db "TRAINER MENU@"
 
 .Jumptable:
