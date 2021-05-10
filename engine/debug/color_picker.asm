@@ -32,7 +32,7 @@
 	const DEBUGCOLORMAIN_INITTMHM       ; 4
 	const DEBUGCOLORMAIN_TMHMJOYPAD     ; 5
 
-DebugColorPicker: ; unreferenced
+DebugColorPicker:: ; unreferenced
 ; A debug menu to test monster and trainer palettes at runtime.
 	ldh a, [hCGB]
 	and a
@@ -348,7 +348,7 @@ DebugColor_InitScreen:
 .normal
 	ld de, .NormalText
 .place_text
-	hlcoord 7, 17
+	hlcoord 8, 17
 	call PlaceString
 	hlcoord 0, 17
 	ld de, .SwitchText
@@ -377,13 +377,13 @@ DebugColor_InitScreen:
 	ret
 
 .ShinyText:
-	db "レア", DEBUGTEST_BLACK, DEBUGTEST_BLACK, "@" ; Rare (shiny)
+	db "SHINY", DEBUGTEST_BLACK, DEBUGTEST_BLACK, "@"
 
 .NormalText:
-	db "ノーマル@" ; Normal
+	db "NORMAL@"
 
 .SwitchText:
-	db DEBUGTEST_A, "きりかえ▶@" ; (A) Switches
+	db DEBUGTEST_A, "SWITCH▶@" 
 
 DebugColor_LoadRGBMeter:
 	decoord 0, 11, wAttrmap
@@ -679,7 +679,7 @@ DebugColor_InitTMHM:
 	ld bc, SCREEN_WIDTH * 8
 	ld a, DEBUGTEST_BLACK
 	call ByteFill
-	hlcoord 2, 12
+	hlcoord 0, 12
 	ld de, DebugColor_AreYouFinishedString
 	call PlaceString
 	xor a
@@ -760,7 +760,7 @@ DebugColor_PrintTMHMMove:
 	ld a, [wTempTMHM]
 	ld [wPutativeTMHMMove], a
 	call GetMoveName
-	hlcoord 10, 12
+	hlcoord 7, 12
 	call PlaceString
 
 	ld a, [wDebugColorCurTMHM]
@@ -773,15 +773,15 @@ DebugColor_PrintTMHMMove:
 	jr nz, .place_string
 	ld de, .NotAbleText
 .place_string
-	hlcoord 10, 14
+	hlcoord 7, 14
 	call PlaceString
 	ret
 
 .AbleText:
-	db "おぼえられる@" ; Learnable
+	db "Can", DEBUGTEST_BLACK, "Learn@"
 
 .NotAbleText:
-	db "おぼえられない@" ; Not learnable
+	db "Can't", DEBUGTEST_BLACK, "Learn@"
 
 .GetNumberedTMHM:
 	cp NUM_TMS
@@ -1042,9 +1042,9 @@ DebugColor_PlaceCursor:
 	ret
 
 DebugColor_AreYouFinishedString:
-	db   "おわりますか？"                        ; Are you finished?
-	next "はい<DOT><DOT><DOT>", DEBUGTEST_A ; YES...(A)
-	next "いいえ<DOT><DOT>", DEBUGTEST_B     ; NO..(B)
+	db   "Done？"                        
+	next "YES", DEBUGTEST_BLACK, DEBUGTEST_BLACK, DEBUGTEST_A
+	next "NO", DEBUGTEST_BLACK, DEBUGTEST_BLACK, DEBUGTEST_BLACK, DEBUGTEST_B   
 	db   "@"
 
 DebugColor_UpArrowGFX:
