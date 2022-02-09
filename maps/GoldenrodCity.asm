@@ -302,7 +302,7 @@ GoldenrodCitySignText:
 GoldenrodCityBikeShopSignText:
 	text "The World is a"
 	line "Cycle Path!"
-	cont "MIRACLE BIKE SHOP"
+	cont "MIRACLE CYCLE"
 	done
 
 GoldenrodCityGameCornerSignText:

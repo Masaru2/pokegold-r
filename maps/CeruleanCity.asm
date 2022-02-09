@@ -242,11 +242,9 @@ CeruleanBikeShopSignText:
 	text "There's a notice"
 	line "here…"
 
-	para "The MIRACLE BIKE"
-	line "SHOP has moved"
-	
-	cont "to GOLDENROD CITY"
-	cont "in JOHTO…"
+	para "MIRACLE CYCLE has"
+	line "moved to GOLDENROD"
+	cont "CITY in JOHTO…"
 	done
 
 CeruleanPoliceSignText:
