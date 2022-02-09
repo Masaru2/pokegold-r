@@ -1398,12 +1398,11 @@ DebugRoomMenu_BtlRecClr:
 	call CloseSRAM
 	ret
 
-DebugRoomMenu_ColorMenu:
-	farcall DebugColorPicker
-	
+
 DebugRoomMenu_TrainerMenu:
 	ld a, 1
 	ld [wDebugColorIsTrainer], a
+DebugRoomMenu_ColorMenu:
 	farcall DebugColorPicker
 	ret
 

@@ -1043,8 +1043,8 @@ DebugColor_PlaceCursor:
 
 DebugColor_AreYouFinishedString:
 	db   "Done？"                        
-	next "YES", DEBUGTEST_BLACK, DEBUGTEST_BLACK, DEBUGTEST_A
-	next "NO", DEBUGTEST_BLACK, DEBUGTEST_BLACK, DEBUGTEST_BLACK, DEBUGTEST_B   
+	next "YES<DOT><DOT><DOT>", DEBUGTEST_A
+	next "NO", DEBUGTEST_BLACK, "<DOT><DOT><DOT>", DEBUGTEST_B   
 	db   "@"
 
 DebugColor_UpArrowGFX:
